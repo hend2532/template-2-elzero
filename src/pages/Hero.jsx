@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div
       className="hero relative h-screen w-screen bg-cover bg-no-repeat "
-      style={{ backgroundImage: "url(/public/images/landing.jpg)" }}
+      style={{ backgroundImage: "url(/images/landing.jpg)" }}
     >
       <Header />
       <div className="color w-full md:w-[50%] lg:pl-40 md:mt-[20vh] mt-[30vh] py-16 px-10 text-white box-border">
