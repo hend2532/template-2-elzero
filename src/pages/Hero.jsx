@@ -2,12 +2,12 @@ import Header from "../components/Header";
 
 function Hero() {
   return (
-    <div
+    <div id="home"
       className="hero relative h-screen w-screen bg-cover bg-no-repeat "
       style={{ backgroundImage: "url(/images/landing.jpg)" }}
     >
       <Header />
-      <div className="color w-full md:w-[50%] lg:pl-40 md:mt-[20vh] mt-[30vh] py-16 px-10 text-white box-border">
+      <div className="color w-full md:w-[50%] lg:pl-40 md:mt-[20vh] mt-[10vh] py-16 px-10 text-white box-border">
         <h1 className="lg:text-[35px] text-[25px] font-medium mb-6">
           Hello World!
           <br />

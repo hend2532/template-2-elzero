@@ -24,7 +24,7 @@ function Services() {
     },
   ];
   return (
-    <div  className="w-screen  m-auto my-32">
+    <div id="services"  className="w-screen  m-auto my-32">
       <h1 className="relative text-[20px] md:text-[35px] my-12 m-auto border-b-2 p-3 border-black w-fit ">
         SERVICES
         <div className="absolute bg-white ml-[35%] w-6 h-6 rounded-full border border-black"></div>

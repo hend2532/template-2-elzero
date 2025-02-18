@@ -25,7 +25,7 @@ function About() {
   ];
 
   return (
-    <div className="w-screen m-auto my-32 text-center">
+    <div id="about" className="w-screen m-auto my-32 text-center">
 
       <h1 className="relative text-[20px] md:text-[35px] my-12 border-b-2 p-3 border-black w-fit m-auto">
         About Us
