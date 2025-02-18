@@ -16,7 +16,7 @@ function DesignFuture() {
       <img
         src="/images/mobile.png"
         alt="Mobile Design"
-        className="absolute bottom-[-10vh] lg:left-40"
+        className="hidden md:block absolute bottom-[-10vh] lg:left-40"
       />
 
       <div className="color ml-auto md:w-1/2 lg:pl-12 md:mt-[20vh] mt-[30vh] py-16 px-10 text-white box-border h-fit">

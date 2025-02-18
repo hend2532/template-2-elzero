@@ -8,7 +8,7 @@ function Testimonials() {
           Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
           Mauris blandit aliquet elit, eget tincidunt.
         </p>
-        <div className=" p-4 rounded-lg mt-6 flex items-center gap-4">
+        <div className=" p-4 rounded-lg mt-6 flex flex-wrap items-center gap-4">
           <img
             src="/images/skills-01.jpg"
             alt="User"
@@ -24,7 +24,7 @@ function Testimonials() {
             </h2>
           </div>
         </div>
-        <div className=" p-3 rounded-lg  flex items-center gap-4">
+        <div className=" p-3 rounded-lg  flex flex-wrap  items-center gap-4">
           <img
             src="/images/skills-02.jpg"
             alt="User"
@@ -75,7 +75,7 @@ function Testimonials() {
       </div>
 
     </div>
-    <div className="hero1 text-white h-52 flex flex-col justify-center items-center text-[30px] text-center bg-cover bg-no-repeat my-16" style={{backgroundImage:"url(/images/quote.jpg"}}>
+    <div className="hero1 text-white h-52 flex flex-col justify-center items-center text-[18px] md:text-[30px] text-center bg-cover bg-no-repeat my-16" style={{backgroundImage:"url(/images/quote.jpg"}}>
           <quote className="">&quot;accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.&quot;</quote>
           <p className=" text-sm text-right">John Doe</p>
     </div>

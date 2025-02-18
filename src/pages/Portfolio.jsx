@@ -66,7 +66,7 @@ function Portfolio() {
         blandit aliquet elit, eget tincidunt.
       </p>
 
-      <div className="flex justify-center items-center gap-8 m-16 text-[20px]">
+      <div className="flex justify-center items-center gap-4 md:gap-8 m-16 text-[20px]">
         <span className="bg-[#19c8fa] py-2 px-4 text-white cursor-pointer">
           All
         </span>
@@ -83,7 +83,7 @@ function Portfolio() {
             onMouseEnter={() => setHoveredItem(item.id)}
             onMouseLeave={() => setHoveredItem(null)}
             style={{ backgroundImage: `url(${item.image})` }}
-            className="relative bg-cover bg-no-repeat w-1/2 lg:w-[25%] h-80 transition-all duration-500 hover:transform hover:scale-105 hover:rotate-1
+            className="relative bg-cover bg-no-repeat w-full md:w-1/2 lg:w-[25%] h-80 transition-all duration-500 hover:transform hover:scale-105 hover:rotate-1
             clip-path-square overflow-hidden"
           >
             <div

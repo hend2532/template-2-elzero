@@ -20,7 +20,7 @@ function Hero() {
           blandit aliquet elit, eget tincidunt.
         </p>
       </div>
-      <div className="flex gap-3 justify-center items-center md:mt-[10vh] mt-[30vh]">
+      <div className="flex gap-3 justify-center items-center md:mt-[10vh] mt-[10vh]">
         <span className="w-4 h-4 rounded-full border border-white"></span>
         <span className="w-4 h-4 rounded-full bg-[#19c8fa]"></span>
         <span className="w-4 h-4 rounded-full border border-white"></span>
